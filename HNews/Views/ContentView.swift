@@ -19,11 +19,13 @@ struct ContentView: View {
             
             //            List(<#T##data: RandomAccessCollection##RandomAccessCollection#>, rowContent: <#T##(Identifiable) -> View#>)
             List(networkManager.posts){ post in
-                
-                HStack {
-                    Text("\(post.points)")
-                    Text(post.title)
+                NavigationLink(destination: DetailView(url: post.url)) {
+                    HStack {
+                        Text("\(post.points)")
+                        Text(post.title)
+                    }
                 }
+                
             }
             .navigationTitle("HNews")
         }
