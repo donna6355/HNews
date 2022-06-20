@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailView: View {
     let url:String?
     var body: some View {
-        Text("Hello, World!")
+        WebView(urlString: url)
     }
 }
 
