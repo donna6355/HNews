@@ -19,8 +19,6 @@ class NetworkManager: ObservableObject{
                 if error == nil{
                     let decoder = JSONDecoder()
                     if let safeData = data{
-                        
-                        print(safeData)
                         do{
                             let result = try  decoder.decode(Results.self, from: safeData)
                             DispatchQueue.main.async {

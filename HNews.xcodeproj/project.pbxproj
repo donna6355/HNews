@@ -22,6 +22,7 @@
 		70555B37285C00750003239E /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		7073D8CE285FF612001414E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		7073D8D228613E10001414E4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		7073D8D428614025001414E4 /* HNews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HNews.entitlements; sourceTree = "<group>"; };
 		70EA48AA285BF98700E62F19 /* HNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EA48AD285BF98700E62F19 /* HNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNewsApp.swift; sourceTree = "<group>"; };
 		70EA48AF285BF98700E62F19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		70EA48AC285BF98700E62F19 /* HNews */ = {
 			isa = PBXGroup;
 			children = (
+				7073D8D428614025001414E4 /* HNews.entitlements */,
 				70EA48AD285BF98700E62F19 /* HNewsApp.swift */,
 				7073D8CD285FF5EE001414E4 /* Views */,
 				70555B34285BFEFA0003239E /* Models */,
@@ -296,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNews/HNews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HNews/Preview Content\"";
@@ -314,6 +317,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.donna6355.HNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNews/HNews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HNews/Preview Content\"";
@@ -343,6 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.donna6355.HNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
