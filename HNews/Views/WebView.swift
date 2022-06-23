@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import WebKit
 
-
+//webview is not supported in swiftUI, u gotta import Webkit!
 struct WebView:UIViewRepresentable {
     let urlString:String?
     func makeUIView(context: Context) -> WKWebView {

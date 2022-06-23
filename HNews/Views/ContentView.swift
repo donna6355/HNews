@@ -25,9 +25,18 @@ struct ContentView: View {
                         Text(post.title)
                     }
                 }
-                
+
             }
             .navigationTitle("HNews")
+            
+//            List{
+//                HStack {
+//                    Text("Morning")
+//                    Label(/*@START_MENU_TOKEN@*/"Label"/*@END_MENU_TOKEN@*/, systemImage: "30.circle")
+//                }
+//                Text("Noon")
+//                Text("Afternoon")
+//            }
         }
         .onAppear { //similar to viewDidLoad
             self.networkManager.fetchData()
